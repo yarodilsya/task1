@@ -1,20 +1,15 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-    cout << "H";
-    cout << "e";
-    cout << "l";
-    cout << "l";
-    cout << "o";
-    cout << " ";
-    cout << "w";
-    cout << "o";
-    cout << "r";
-    cout << "l";
-    cout << "d";
-    cout << endl;
+    cout << "Enter your name: ";
+
+    string name;
+    getline(cin, name);
+
+    cout << "Hello world from @" << name << endl;
 
     return 0;
 }
